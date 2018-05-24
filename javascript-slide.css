@@ -1,0 +1,21 @@
+.slide-section-one {
+    background: yellow;
+    height: 80%;
+}
+.slide-section-two {
+    background: red;
+    height: 80%;
+}
+.slide-section-three {
+    background: purple;
+    height: 80%;
+}
+.next-btn {
+    position: absolute;
+    width: 100px;
+    bottom: 15px;
+}
+.next-container {
+    width: 100%;
+    text-align: center;
+}

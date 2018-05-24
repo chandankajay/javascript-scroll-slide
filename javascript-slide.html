@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Slide</title>
+        <link rel="stylesheet" href="javascript-slide.css">
+        <link rel="stylesheet" href="sources/bootstrap.css">
+        <script src="sources/jquery.js"></script>
+        <script src="sources/bootstrap.js"></script>
+        <script src="javascript-slide.js"></script>
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="col-xs-12">
+                <button onclick="scrollNext('slide1')" class="btn btn-lg btn-primary">Slide 2</button>
+                <button onclick="scrollNext('slide2')" class="btn btn-lg btn-primary">Slide 3</button>
+            </div>
+            <div class="col-xs-12 slide-section-one">
+                <h1>Slide One</h1>
+                <h3> Description </h3>
+                <div class="next-container">
+                <button onclick="scrollNext('slide1')" class="next-btn btn btn-lg">Next</button>                
+        </div> </div>
+            <div class="col-xs-12 slide-section-two">
+                <h1>Slide two</h1>
+                <h3> Description </h3>
+                <div class="next-container">
+                <button onclick="scrollNext('slide2')" class="next-btn btn btn-lg">Next</button>     
+                </div>
+            </div>
+            <div class="col-xs-12 slide-section-three">
+                <h1>Slide three</h1>
+                <h3> Description </h3>
+                <div class="next-container">
+                <button onclick="scrollNext('slide3')" class="next-btn btn btn-lg">Top</button>                
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
